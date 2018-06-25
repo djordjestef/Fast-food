@@ -543,4 +543,14 @@ footer p {
 	margin-top: 30px;
 }
 
+.toggle {
+	width: 100%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-align: right;
+	color: #fff;
+	font-size: 30px;
+	display: none;
+	
+}
 

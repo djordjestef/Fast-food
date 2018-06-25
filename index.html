@@ -9,19 +9,24 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<title>Fast-food</title>
 </head>
 <body>
 	<header>
 		<nav>
-			<div class="row">
+			<div class="row">				
 				<img src="resources/img/logo-white.png" alt="logo-white" class="logo">
+				<div class="toggle">
+					<i class="fa fa-bars menu"></i>
+				</div>
 				<ul class="main-nav">
 					<li><a href="#section-features">Food delivery</a></li>
 					<li><a href="#section-steps">How it works</a></li>
 					<li><a href="#section-cities">Our cities</a></li>
 					<li><a href="#section-form">Sign up</a></li>
 				</ul>
+				</div>
 			</div>
 		</nav>
 		<div class="hero-text-box">
@@ -426,7 +431,19 @@
 			<p>Copyright &copy;2018 by Omnifood. All rights reserved.</p>
 		</div>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('.main-nav').toggleClass('active');
+			})
+		})
+	</script>
+
 	<script src="resources/js/jquery.js"></script>
+
+	
 	<script src="resources/js/custom-scroll.js"></script>
 
 </body>

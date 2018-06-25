@@ -8,6 +8,11 @@
 	.row {
 		padding: 0 2%;
 	}
+	h1 {
+		font-size: 190%;
+		margin-top: 30px;
+
+	}
 
 }
 
@@ -15,6 +20,10 @@
 
 	body { font-size: 18px; }
 	section { padding: 60px 0; }
+	h1 {
+		font-size: 160%;
+		margin-top: 30px;
+	}
 
 	.long-copy {
 		width: 80%;
@@ -60,9 +69,29 @@
 		width: 100%;
 		margin: 0% 0 4% 0%;
  	}
-	.main-nav { display: none; }
-	h1 { font-size: 180%; }
+ 	
+	.main-nav { 
+		display: none;
+		background-color:transparent;
+		opacity: 1.2;
+		margin-top: 10px;
+		width: 200px;
+		text-align: right;
+
+	}
+	.main-nav li  {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	h1 { 
+		font-size: 130%;
+		margin-top: 55px
+
+		 }
+
 	h2 { font-size: 150%; }
+
 	.long-copy { 
 		font-size: 100%;
 		margin: 0%;
@@ -75,14 +104,35 @@
 		margin-right: 15px;
 		font-size: 120%;
 	}
+
 	.app-screen { width: 40%; }
 	
 	.steps-box:first-child {
 		text-align: center;		
 	}
 
-	.works-step { margin-bottom: 30px; }
-	.works-step:last-of-type { margin-bottom: 30px;  }
+	.works-step { 
+		margin-bottom: 30px; 
+	}
+
+	.works-step:last-of-type { 
+		margin-bottom: 30px;  
+	}
+
+	.toggle {
+		display: block;
+		margin-top: 15px;
+	}
+
+	.active {
+		display: block;
+	}
+
+	.menu {
+		cursor: pointer;
+
+	}
+
 }
 
 @media only screen and (max-width: 480px) {
