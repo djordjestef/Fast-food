@@ -1,5 +1,5 @@
 /*basic setup*/
-/*orange #e67e22*/
+/* blue #0073b1*/
 
 * {
 	margin: 0;
@@ -39,6 +39,7 @@ section {
 
 .box {
 	padding: 1%;
+	text-align: center;
 }
 
 /*-------------------------*/
@@ -76,7 +77,7 @@ h2:after {
 	content: "";	
 	display: block;
 	height: 2px;
-	background-color: #e67e22;
+	background-color: #0073b1;
 	width: 100px;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -100,7 +101,7 @@ h2:after {
 .icon-big {
 	font-size: 350%;
 	display: block;
-	color: #e67e22;
+	color: #0073b1;
 	margin-bottom: 10px;	
 }
 
@@ -108,7 +109,7 @@ h2:after {
 	display: inline-block;
 	width: 30px;
 	text-align: center;
-	color: #e67e22;
+	color: #0073b1;
 	font-size: 120%;
 	margin-right: 10px;
 	/*align text and icon*/
@@ -120,9 +121,9 @@ h2:after {
 /*links*/
 /*-------------------------*/
 a {
-	color: #e67e22;
+	color: #0073b1;
 	text-decoration: none;
-	border-bottom: 1px solid #e67e22;
+	border-bottom: 1px solid #0073b1;
 	padding: 1px;
 	transition: color 0.2s, border-bottom 0.2s;
 }
@@ -152,40 +153,40 @@ a:active {
 .btn-full:link,
 .btn-full:visited,
  input[type=submit] {
-	background-color: #e67e22;
-	border: 1px solid #e67e22;
+	background-color: #0073b1;
+	border: 1px solid #0073b1;
 	margin-right: 15px; 
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-	border: 1px solid #e67e22;
-	color: #e67e22; 
+	border: 1px solid #0073b1;
+	color: #0073b1; 
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-	background-color: #cf6d17;
+	background-color: #0073b1;
 }
 
 .btn-full:hover,
 .btn-full:active
   {
-	border: 1px solid #cf6d17; 
+	border: 1px solid #0073b1; 
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-	border: 1px solid #cf6d17;
+	border: 1px solid #0073b1;
 	color: #fff; 
 }
 /*-------------------------*/
 /*header*/
 /*-------------------------*/
 header {
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/hero.jpg');
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/8.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -197,18 +198,10 @@ header {
 	width: 1140px;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.logo {
-	height: 100px;
-	float: left;
-	width: auto;
-	margin-top: 20px;
+	transform: translate(-50%, -50%);	
 }
 
 .main-nav {
-	float: right;
 	list-style: none;
 	margin-top: 55px;
 }
@@ -218,9 +211,13 @@ header {
 	margin-left: 40px;
 }
 
+.main-nav li:first-child {
+	margin-left: 0;
+}
+
 .main-nav li a:link,
 .main-nav li a:visited {
-	padding: 8px 0;/*space beetwen orange line and link a*/
+	padding: 8px 0;
 	text-decoration: none;	
 	color: #fff;
 	text-transform: uppercase;
@@ -231,7 +228,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2px solid #e67e22;
+	border-bottom: 2px solid #0073b1;
 }
 
 .section-features .long-copy {
@@ -307,8 +304,8 @@ header {
 }
 
 .works-step div {
-	color: #e67e22;
-	border: 2px solid  #e67e22;
+	color: #0073b1;
+	border: 2px solid  #0073b1;
 	display: inline-block;
 	border-radius: 50%;
 	width: 55px;
@@ -359,27 +356,6 @@ blockquote {
 	margin-top: 40px;
 }
 
-blockquote:before {
-	content: "\201C"; 
-	font-size: 500%;
-	display: block;
-	position: absolute;
-	top: -5px;
-	left: -3px;
-}
-
-cite {
-	font-size: 90%;
-	margin-top: 25px;
-	display: block;
-}
-
-cite img {
-	height: 50px;
-	border-radius: 50%;
-	vertical-align: middle;
-	margin-right: 10px;
-}
 
 /*-------------------------*/
 /*sign up*/
@@ -404,7 +380,7 @@ cite img {
 
  .plan-price {
  	font-size: 300%;
- 	color: #e67e22;
+ 	color: #0073b1;
  	font-weight: 100;	
  	margin-bottom: 10px;
  }
@@ -550,7 +526,6 @@ footer p {
 	text-align: right;
 	color: #fff;
 	font-size: 30px;
-	display: none;
-	
+	display: none;	
 }
 
